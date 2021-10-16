@@ -261,7 +261,7 @@ body {
     max-height: 640px;
     margin: auto;
     color: #fff;
-    padding: 80px;
+    padding: 5%;
 }
 
 .intro-content {
@@ -417,7 +417,8 @@ body {
 }
 
 .description {
-    padding: 10px;
+    width: 90%;
+    padding: 5%;
 }
 
 /* GALERY */
@@ -427,7 +428,7 @@ body {
 }
 
 .slider-box {
-
+    width: 100%;
 }
 
 /* FORM */
@@ -523,8 +524,14 @@ input[type=submit] {
 .container-form {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 5%;
   display: inline-block;
-  width: 95%;
+  width: 90%;
+  margin: auto;
 }
+}
+
+.zagolovok {
+ width: 80%;
+ padding: 10%;
 }
