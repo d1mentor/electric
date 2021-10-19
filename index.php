@@ -1,9 +1,11 @@
 <?php
 // список языков
 $sites = array(
-    "en" => "en/index.html",
+    "ru" => "ru/index.html",
     "de" => "de/index.html",
 	"pl" => "pl/index.html",
+    "ua" => "ua/index.html",
+    "en" => "en/index.html",
 );
 
 // получаем язык
