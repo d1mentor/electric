@@ -37,7 +37,7 @@ if (!in_array($loc, array_keys($sites))){
     $loc = 'en';
 }
 
-mail("gerasimenko1305@gmail.com", "Заявка с сайта", "ФИО:".$name.".\n E-mail: ".$email." \nPhone:".$phone." \nSubject: ".$subj."\nFrom: electric, Location:".$sites[$loc] ,"From: ".$email." \r\n");
+mail("gerasimenko1305@gmail.com", "Заявка с сайта", "ФИО:".$name.".\n E-mail: ".$email." \nPhone:".$phone." \nSubject: ".$subj."\nFrom: electric, Location:".$sites[$loc] ,"From: stabilizator.ml \r\n");
 
 
 $redirect = isset($_SERVER['HTTP_REFERER'])? $_SERVER['HTTP_REFERER']:'redirect-form.html';

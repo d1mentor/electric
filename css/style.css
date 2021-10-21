@@ -16,6 +16,7 @@ body {
     background: #333;
     opacity: 0.8;
     height: 50px;
+    z-index: 999;
 }
 
 .header-items {
@@ -403,7 +404,7 @@ body {
 
 .slider-image {
   width: 300px;
-  height: 250px;
+  
   margin: auto  ; 
 }
 }
@@ -537,4 +538,23 @@ input[type=submit] {
  padding-bottom: 20px;
 }
 
+.kostyl {
+    height: 355.55px;
+}
+
 input[type="submit"]:disabled { background-color: #5fa372 ; cursor: auto; }
+
+h3.text-lead {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  h3.text-lead {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 0;
+}
+} 
