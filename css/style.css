@@ -26,7 +26,7 @@ body {
 }
 
 .brand {
-    width: 350px;
+    width: 200px;
     height: 50px;
     float: left;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .header-nav {
-    width: 730px;
+    width: 880px;
     height: 50px;
     float: left;
 }
@@ -93,7 +93,7 @@ body {
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 950px) {
   .header-items {
     width: 100%;
   }
@@ -254,7 +254,7 @@ body {
     background-image: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.6));
     background-size: 100%;
     width: 100%;
-    height: 640px;
+    height: 680px;
 }
 
 .intro-content {
@@ -328,7 +328,7 @@ body {
     
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 890px) {
     .col-3-4 {
         width: 100%;
     }
@@ -558,3 +558,14 @@ h3.text-lead {
   margin-left: 0;
 }
 } 
+
+.buffer-bot-40{
+  margin-bottom: 40px;
+}
+
+.flags {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  z-index: 1000;
+}
