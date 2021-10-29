@@ -98,6 +98,10 @@ body {
     width: 100%;
   }
 
+  .text-kostyl{
+  font-size: 22px;
+}
+
   .header{
     position: fixed;
     top: 0;
@@ -209,6 +213,11 @@ body {
   font-size: 16px;
   font-weight: normal;
   line-height: 20px;
+}
+
+  .text-lead2 {
+  font-size: 22px;
+  font-weight: normal;
 }
   .title-large {
   font-size: 20px;
@@ -420,6 +429,7 @@ body {
 .description {
     width: 90%;
     padding: 5%;
+    margin-bottom: 40px;
 }
 
 /* GALERY */
