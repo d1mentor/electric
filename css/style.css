@@ -388,8 +388,14 @@ body {
 
 .box {
     width: 25%;
-    float: left;
+    float: right;
 }
+
+.box-big {
+    width: 25%;
+    float: right;
+}
+
 
 @media screen and (max-width: 920px) {
     .box {
@@ -420,6 +426,10 @@ body {
 
 .image {
     width: 200px;
+}
+
+.image-fix-height {
+  height: 112.5px;
 }
 
 .name {
